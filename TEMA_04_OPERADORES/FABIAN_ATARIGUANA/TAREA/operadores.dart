@@ -4,8 +4,8 @@ void main() {
 Imprimirlo con el siguiente formato ```El total de la compra es 25.00 USD```
    */
   
-  double producto1 = 5.10;
-  double producto2 = 1.50;
+  double producto1 = 20.0;
+  double producto2 = 5.0;
   double total = producto1 + producto2;
 
   print('El total de la compra es $total USD');
