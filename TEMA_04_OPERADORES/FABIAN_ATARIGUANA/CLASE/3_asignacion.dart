@@ -1,6 +1,6 @@
 void main(){
 
-String nombre='Cristhian';
+String nombre="Fabian";
 //Asignacion +=
 //variable + el valor
 int tiempodejuego=0;

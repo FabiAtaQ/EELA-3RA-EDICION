@@ -1,29 +1,13 @@
-void main(){
-int edad=25;
+void main () { 
+  dynamic a = 10;
 
-print (edad.runtimeType);
+  print(a.runtimeType);
 
-print(edad is int);
+  // Mediante condiciones podemos saber el tipo de dato
+  print (a is int);
 
-print (edad is bool);
+  final numeros = [1,2,3,4,5,6,7,8,9,10];
 
-print (edad is List<int>);
-
-final numeros=[1,2,3,4,5];
-
-print(numeros is List<String>);
-
-print(numeros is! List<String>);
-
-dynamic map={
-'value':{
-'1':'1',
-'2':2,
-},
-'name':'cristhian'
-};
-
-print ((map['value']).runtimeType);
-print ((map['value'] as Map<String,dynamic>).runtimeType);
-
+  print(numeros is List<int>);
+  print(numeros is List<String>);
 }
